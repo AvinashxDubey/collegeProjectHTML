@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>HTML PROJECT</title>
+    <style>
+        hr {
+            border: 0;
+            clear:both;
+            display:block;
+            width: 10%;               
+            background-color:#007DC9;
+            height: 4px;
+        }
+        .dropbtn {
+            background-color: #33C2FF; 
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #64b1d2;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 12px ;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #33C2FF
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #056189
+        }
+        .header {
+            position: sticky;
+            top: 0;
+            border: 4px solid #1d8dce
+        }
+    </style>
+</head>
+<body>
+    <!--Start Header-->
+    <div class="header">
+    <table id="header" border="0" width="100%" cellpadding="0" 
+    cellspacing="0" bgcolor="#33C2FF">
+    <tr>
+        <td>
+            <table width="95%" border="0" cellpadding="15" cellspacing="0"
+            align="center">
+        <tr>
+            <td>
+              <a href="https://www.cgc.ac.in/#"> 
+                <img class="normal-logo" src="https://www.cgc.ac.in/images/full-logo.gif" alt="full-logo" height="70%" width="70%">
+              </a>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+            <a style="text-decoration: none" href="#Home"> <font face="arial" color="#ffffff" 
+            size="4">Home</font></a>
+            </td> 
+            <td>
+            <a style="text-decoration: none" href="#About"> <font face="arial" color="#ffffff" 
+            size="4">About</font></a>
+            </td> 
+                <td>
+                    <a style="text-decoration: none" href="#Achievements"> <font face="arial" color="#ffffff" 
+                    size="4">Achievements</font></a>
+                    </td> 
+                <td>
+                        <a style="text-decoration: none" href="#Why CGC-J?"> <font face="arial" color="#ffffff" 
+                     size="4"> <p>Why&nbsp;CGC-&nbsp;J?</p></font></a>
+                   </td> 
+                <td>
+                    <a style="text-decoration: none" href="#Placements"> <font face="arial" color="#ffffff" 
+                    size="4">Placements</font></a>  
+                </td> 
+                    <td>
+                        <a style="text-decoration: none" href="#Admissions"> <font face="arial" color="#ffffff" 
+                        size="4">Admissions</font></a>
+                        </td> 
+                    <td>
+                        <a style="text-decoration: none" href="#Contact"> <font face="arial" color="#ffffff" 
+                        size="4"><p>Contact&nbsp;Us</p></font></a>
+                        </td> 
+                    <td>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Programs
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="https://www.cgc.ac.in/engineering-courses">
+                                  Engineering   
+                                </a>
+                                <a href="https://www.cgc.ac.in/business-management">
+                                   Business Management  
+                                </a>
+                                <a href=https://www.cgc.ac.in/faculty-of-science">
+                                    Bachelor of Science
+                                </a>
+                                <a href="https://www.cgc.ac.in/commerce-courses">
+                                    Commerce
+                                </a>
+                                <a href="https://www.cgc.ac.in/computer-application-courses">
+                                    Computer Application 
+                                </a>
+                                <a href="https://www.cgc.ac.in/applied-health-science-courses">
+                                   Applied Health Sciences 
+                                </a>
+                                <a href="https://www.cgc.ac.in/b-a-journalism-mass-communication">
+                                    Journalism & Mass Communication 
+                                </a>
+                                <a href="https://www.cgc.ac.in/chandigarh-pharmacy-college">
+                                     Pharmacy
+                                </a>
+                                <a href="https://www.cgc.ac.in/chandigarh-law-college">
+                                     Law
+                                </a>
+                            </div>
+                        </div>
+                    </td>
+        </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+    </div>
+    <!--End Header-->
+    <!--Start Home-->
+    <table id="Home" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#AADAF7">
+    <tr>
+        <td>
+            <table border="0" width="85%" cellpadding="0" cellspacing="0"
+            align="center">
+        <tr>
+            <td align="center" valign="middle">
+                <h3>
+                    <font face="Georgia" color="#000000" size="5">
+                    Welcome to CHANDIGARH GROUP OF COLLEGES JHANJERI (CGC-J), 
+                    one of the best college in North India known for delivering excellent placements in top-ranked companies.
+                    </font>
+                </h3> <br>    
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E22AQEr1NqC8kfP2g/feedshare-shrink_2048_1536/0/1656347744009?e=2147483647&v=beta&t=J-MqtJG-L-3zCvsRrTDW1WbKDHVSS4m6FeyL5KdMCc8"
+                    height="600" width="500" border="0" alt="cgc-71st-in-PAN-India">
+            </td>
+                   
+        </tr>
+        <tr>
+            <td>
+                <br>
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End Home-->
+
+    <!--Start About-->
+    <table id="About" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="33C2FF">
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+        <!--Heading Start-->
+            <tr>
+            <td height="180" align="center" valign="middle" colspan="2">
+                <h3>
+                    <font face="Georgia" color="#000000" size="6">
+                    About Us
+                    </font>
+                    <hr width="70" color="#007DC9">
+                </h3>    
+                    
+            </td>
+                   
+        </tr>
+        <!--Heading End-->
+        <tr>
+            <td width="40%">
+                <img src="https://humaribaat.in/wp-content/uploads/2022/03/CGC-Jhanjeri-pic-920x425.jpeg"
+                alt="CGC-J Campus" height="300" width="500" border="0">
+            </td>
+            <td width="60%">
+                <font face="arial" color="#D90000" size="5">
+               &nbsp;&nbsp; 21 Glorious Years of Legacy<br><br>
+                </font>
+                <font face="arial" color="#000000" size="4">
+                    Established in 2012 with engineering as a flagship program, Chandigarh Group of Colleges, Jhanjeri (CGC-J) has come a long way in its journey of delivering quality higher education at affordable fees. CGC-J, whose roots date back to 2001 and has evolved from CGC Group, is today one of North India’s leading higher education providers that offer world-class education and endless placement opportunities to the students of all corners of the country.
+
+                    Currently, CGC-J offers 40+ advanced, practice-based and industry-par undergraduate and postgraduate programs in the fields of Engineering, Management, Commerce, Law*, Computer Application, Journalism, Pharmacy*, Sciences, and more.
+                    
+                    CGC-J is the epitome of strong international alliances as we have tied-up with 40+ top international colleges and universities in 15 countries around the globe. These alliances give our students an opportunity to broaden their horizons. The college embraces seasoned faculty who are alumni of IITs and IIMs, a student-centric and research-intensive environment and, most importantly, an education model that blends the theory and hands-on exposure effectively.
+                    
+                    Apart from this, CGC-J has been placing utmost importance on 360° pre-placement training, as well as, building strong industry-academia alliances – that’s why we are trendsetters in campus placements. We have tied up with many top-notch companies in diverse fields to understand the industry trends and implement an industry-standard curriculum.
+                    
+                    Every year, industry experts and international expert faculties from top corporate and world-renowned universities, respectively, visit our campus to give students a first-hand experience of the global education landscape and real-life industry.
+                    
+                    Also since inception, the college has been taking a keen interest in various social welfare activities. Pursuant to the same, the college is running a full-fledged NSS Unit affiliated to I.K. Gujral Punjab Technical University. This dedicated unit performs various voluntary actions that promote the culture of social responsibility among students, as well as, contribute to the welfare of society.
+                    
+                    To impart selflessness, confidence, honesty, discipline, hard work and leadership qualities among students, the college has embodied an NCC unit comprising of Army, Navy and Air Wing. Students from many countries dwell on our campus. Thus choosing us will let you become a part of a vibrant and culturally diverse community.
+                    
+                    As we move an extra mile in the coming years, CGC-J is determined to advance into the highest tier of the country’s best colleges, thereby widening its reach and impact.
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End About-->
+    <!--Start Achievements-->
+    <table id="Achievements" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#CDEAF1 ">
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+        <!--Heading Start-->
+            <tr>
+            <td height="180" align="center" valign="middle" colspan="2">
+                <h3>
+                    <font face="Georgia" color="#000000" size="6">
+                    Achievements
+                    </font>
+                    <hr width="70" color="#007DC9">
+                </h3>    
+                    
+            </td>
+                   
+        </tr>
+        <!--Heading End-->
+        <tr>
+            <td width="40%">
+               <img src="https://www.cgc.ac.in/uploads/17Educational-Group.jpg" 
+               alt="Mr Sahil Kapoor, Associate Director, Marketing & Business Development receiving India's fastest growing college award from Topgallant Media"
+               height="400" width="350"  border="0"> <br> <br>
+            </td>
+            <td width="60%">
+                <font face="arial" color="#D90000" size="5">
+               &nbsp;&nbsp; Awards and Trophies - CGC Jhanjeri as a Winner<br><br>
+                </font>
+                <font face="arial" color="#000000" size="4">
+                    Looking back, it feels gratified that Chandigarh Group of Colleges, Jhanjeri has won so many wonderful recognitions. We are not the first in imparting education, but what sets us apart is the passion we have for what we do. Some of the attributes that have helped us win these many prestigious awards include – our commitment, consistency, and honesty towards providing quality higher education.
+                  Moving ahead, Chandigarh Group of Colleges, Jhanjeri, continues to stride forward with utmost commitment to make further improvements in higher education and make it more result-oriented and of practical importance to students. It is our consistency in imparting quality higher education and churning out professionals that are not only academically and technically competent but are also ingrained with ethical and social values, which has brought us to the notice of various organizations and considered worthy to be conferred awards like National Employability Award 2022, North India’s Fastest Growing Educational Group 2021,Award for Academic Excellence Presented by Hon’ble C.M. Shri Jai Ram Thakur(Himachal Pradesh) in 2019 etc. 
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End Achievements-->
+    <!--Start Why CGC-J?-->
+    <table id="Why CGC-J?" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#B91313">
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+        <!--Heading Start-->
+            <tr>
+            <td height="180" align="center" valign="middle">
+                <h3>
+                    <font face="Georgia" color="#FFFFFF" size="6">
+                    Why choose CGC Jhanjeri?
+                    </font>
+                    <hr width="70" color="#000000">
+                </h3>    
+                    
+            </td>
+                   
+        </tr>
+        <!--Heading End-->
+        <tr> 
+            <td>
+                <font face="arial" color="#000000" size="4">
+                    From vibrant campus life -to- best placements, CGC-J embraces everything you will need to carve a successful career in your chosen field.
+                </font> <br> <br>
+            </td>
+        </tr> 
+        <table align="center" id="header" border="0" width="60%" cellpladding="12" cellspacing="10" 
+    bgcolor="#CDEAF1">
+        <tr> 
+            <td>
+                <div style="text-align: center">
+                    <img src="https://www.cgc.ac.in/courses/all-courses/images/16hands.jpg" border="0" height="300" width="300" align="center">
+                </div>
+            <br> <br>
+           </td>
+        </tr>
+        
+        <tr>
+        <td>
+            <font face="Georgia" color="#000000" size="5">
+           Hands-on Learning <br><br>
+            </font>
+            <font face="arial" color="#000000" size="4">
+                Become a jack-of-all-skills with profound knowledge and professional skill set delivered by our seasoned faculty.
+            </font>
+        </td>
+    </tr>
+        </table><br><br>
+        <table align="center" id="header" border="0" width="60%" cellpladding="12" cellspacing="10" 
+        bgcolor="#CDEAF1">
+            <tr> 
+                <td>
+                    <div style="text-align :center">
+                        <img src="https://www.cgc.ac.in/courses/all-courses/images/19industry.jpg" border="0" height="300" width="300" align="middle">
+                    </div>
+                <br> <br>
+               </td>
+            </tr>
+            
+            <tr>
+            <td>
+                <font face="Georgia" color="#000000" size="5">
+                    Industry-Oriented Training<br><br>
+                </font>
+                <font face="arial" color="#000000" size="4">
+                    Aim higher in gaining the most promising career by getting industry-relevant training that fills in you a potential to get job-ready.
+                </font>
+            </td>
+        </tr>
+            </table><br><br>
+            <table align="center" id="header" border="0" width="60%" cellpladding="12" cellspacing="10" 
+    bgcolor="#CDEAF1">
+        <tr> 
+            <td>
+                <div style="text-align: center">
+                <img src="https://www.cgc.ac.in/courses/all-courses/images/11research.jpg" border="0" height="300" width="300" align="center">
+                </div>    
+            </td>
+            <br> <br>
+           </td>
+        </tr>
+        
+        <tr>
+        <td>
+            <font face="Georgia" color="#000000" size="5">
+                Research & Innovation Cell<br><br>
+            </font>
+            <font face="arial" color="#000000" size="4">
+                The research and innovation program at CGC Jhanjeri lets you begin from scratch in shaping your ideas into real-time projects.
+            </font>
+        </td>
+    </tr>
+        </table><br><br>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End Programs-->
+    <!--Start Placements-->
+    <table id="Placements" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#D2D2D2">
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+        <!--Heading Start-->
+            <tr>
+            <td height="180" align="center" valign="middle">
+                <h3>
+                    <font face="Georgia" color="#000000" size="6">
+                    The Placements 2022
+                    </font>
+                    <hr width="70" color="#007DC9">
+                </h3>    
+                    
+            </td>
+                   
+        </tr>
+        <!--Heading End-->
+        <tr>
+            <td colspan="2">
+                <font face="arial" color="#000000" size="5">
+                    Campus placements at CGC-Jhanjeri sees an uptrend with the recruiting blue-chip companies flowing in after the once-in-a-lifetime Pandemic.
+                </font> <br><br>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%">
+                <iframe width="626" height="400" src="https://www.youtube.com/embed/Fj2_pCS2Ch0?igu=1" style="border:0">
+                </iframe>
+            </td>
+            <td width="50%">
+               <font face="arial" color="#000000" size="5"> The placed students along with the management and faculty rejoiced "Placement Day- 2022" at Chandigarh Group of Colleges- Jhanjeri. 
+                The primary motive to organize this event was to honor and inspire the students who made their aspirations clear and spirits high to
+                 participate in the placement drive. It was with their hard work that even the pandemic could not stop them from grabbing lucrative 
+                 placements in their dream companies listed among Fortune 800+ companies. Some of these include Capgemini, Infosys, Google, Accenture, etc.
+                Here we have a sneak peek into the joyous ceremony for the success of our students in the video streaming alongside.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End Placements-->
+    <!--Start Admissions-->
+    <table id="Admissions" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#E4F5FF">
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+        <!--Heading Start-->
+            <tr>
+            <td height="180" align="center" valign="middle" colspan="2">
+                <h3>
+                    <font face="Georgia" color="#000000" size="6">
+                    Admissions
+                    </font>
+                    <hr width="70" color="#007DC9">
+                </h3>    
+                    
+            </td>
+                   
+        </tr>
+        <!--Heading End-->
+        <tr>
+            <td>
+                <font face="arial" color="#D90000" size="5">
+               &nbsp;&nbsp; CGC Jhanjeri -
+               Empowering The Future<br><br>
+                </font>
+                <font face="arial" color="#000000" size="4">
+                    CGC Jhanjeri (CGC-J) is a preferred choice among the best colleges in North India. With unique student training
+                     programs, well-equipped infrastructure, eminent corporate tie-ups and other potentials, we set our sight on
+                      inculcating proficiency, sapience and rational skill set in our students. To this, our UG and PG programs are
+                       tailor-made for all-in-all student development and industrial adeptness.<br>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <table  width="50%" align="center" border="1" cellpadding="15" cellspacing="0">
+                <tr>
+                    <td>
+                        <b><h2>800+</h2></b>Companies for Placement
+                    </td>
+                    <td>
+                       <b> <h2>8500+</h2></b><br>Placement Offers
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><h2>1 Lakh<sup>PM</sup></h2></b> <br> Highest Stipend
+                    </td>
+                    <td>
+                        <b><h2>40.9 Lakh<sup>PA</sup></h2></b> <br> Highest Package
+                    </td>
+                </tr>
+            </table>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End Admissions-->
+    <!--Start Contact Us-->
+    <table id="Contact" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#094163">
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+        <!--Heading Start-->
+            <tr>
+            <td height="180" align="center" valign="middle" colspan="1">
+                <h3>
+                    <font face="Georgia" color="#FFFFFF" size="6">
+                    Contact Us
+                    </font>
+                    <hr width="70" color="#007DC9">
+                </h3>    
+            </td>        
+        </tr>
+        <!--Heading End-->
+        <tr>
+            <td align="center" valign="top">
+                <table border="0" width="50%" cellpadding="15" cellspacing="0" 
+                align="center" bgcolor="#007DC9">
+                <tr>
+                    <td align="center" colspan="3">
+                        <Font face="Georgia" color="#ffffff" size="5">
+                            Admission Enquiry 
+                        </Font>
+                    </td>
+                </tr> 
+                <form>
+                    <tr>
+                    <td width="30%" colspan="2">
+                        <label for="name">
+                            <font face="arial" size="4" color="#ffffff">
+                            NAME:
+                        </font>
+                    </label>
+                    </td>
+                    <td width="70%" colspan="2">
+                        <input type="text" size="40" placeholder="Enter Name*">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td width="30%" colspan="2">
+                        <label for="name">
+                            <font face="arial" size="4" color="#ffffff">
+                            Email ID:
+                        </font>
+                    </label>
+                    </td>
+                    <td width="70%" colspan="2">
+                        <label for="name">
+                            <input type="text" size="40" placeholder="Enter Email ID*">
+                        </label>
+                    </td>
+                 </tr>
+                <tr>
+                    <td width="30%" colspan="2">
+                    <label for="name">
+                    <font face="arial" size="4" color="#ffffff">
+                            Mobile Number:
+                        </font>
+                        </label>
+                    </td>
+                    <td width="70%" colspan="2">
+                        <input type="text" size="40" placeholder="Enter Mobile Number*; For Eg. +91 70******09">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="20%">
+                        <label for="state">
+                        <font face="arial" size="4" color="#ffffff">
+                            State:
+                        </font>
+                        </label>
+                    </td>
+                    <td width="20%">                       
+                        <input type="text" size="40" placeholder="Enter State*">
+                    </td>
+                    
+                    </td>
+                    <td width="10%">
+                        <label for="state">
+                            <font face="arial" size="4" color="#ffffff">
+                            City:
+                        </font>
+                    </label>
+                    </td>
+                    <td width="20%">
+                        <input type="text" size="40" placeholder="Enter City*">
+                    </td>
+                 </tr>
+                </form>
+                 <tr>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">
+                    </td>
+                    <td>
+                        <font face="arial narrow" size="3" color="#ffffff">
+                            I agree to receive information
+                        </font>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td >
+
+                   </td>
+                    <td>
+                        <button>
+                            SUBMIT
+                        </button>
+                    </td>
+                 </tr>
+                </table>
+                
+            </td>
+        </tr>
+        <tr>  
+            <td>
+                 <br>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1715.6671490202702!2d76.6046013029869!3d30.680869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe5b795735cfd%3A0xb287b4430b6720fb!2sChandigarh%20Group%20of%20Colleges%20Jhanjeri%20Mohali!5e0!3m2!1sen!2sin!4v1670262971311!5m2!1sen!2sin?"
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            </td>
+            <td valign="top" width="remaining">
+             <h2>
+                <font face="georgia" color="ffffff">Address </font>
+                 <hr>
+            </h2><br>
+            <p><font face="georgia" color="ffffff"><h3>Business Location:</h3><br>
+
+                Chandigarh Group of Colleges Jhanjeri, Mohali-140307 (Punjab)<br><br>
+                <h3>Business Legal Address:</h3><br>
+                
+                Chandigarh Educational Society Kharar, Village Jhanjeri, Sas Nagar Mohali, India 140301 India</font></p>
+            </td>
+         <tr>  
+            <td>
+                 <br>
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+            </table>
+ 
+    <!--End Contact Us-->
+    <!--Start footer-->
+    <table id="header" border="0" width="100%" cellpladding="0" cellspacing="0" 
+    bgcolor="#007DC9">
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table border="0" width="90%" cellpadding="0" cellspacing="0"
+            align="center">
+            
+        <tr>
+           <td>
+            <a style="text-decoration: none" href="https://www.facebook.com/ChandigarhGroupOfCollegesJhanjeri">
+                <font face="georgia" color="#094163" size="4">
+                <span class="fa-brands fa-square-facebook"></span>
+                FACEBOOK
+            </font>
+            </a>
+            </td>
+            <td>
+            <a style="text-decoration: none" href="https://twitter.com/cgcjhanjeri">
+                <font face="georgia" color="#094163" size="4">
+                <span class="fa-brands fa-square-twitter"></span>
+                TWITTER
+            </font>
+            </a>
+            </td>
+            <td>
+            <a style="text-decoration: none" href="https://www.instagram.com/cgcjhanjeri/">
+            <font face="georgia" color="#094163" size="4">
+                <span class="fa-brands fa-square-instagram"></span>
+                INSTAGRAM
+            </font>
+            </a>
+            </td>
+            <td>
+            <a style="text-decoration: none" href="https://www.youtube.com/user/cgcjhanjeri">
+            <font face="georgia" color="#094163" size="4">
+                <span class="fa-brands fa-square-youtube"></span>
+                YOUTUBE
+            </font>
+            </a>
+            </td>
+            <td>
+            <a style="text-decoration: none" href="https://www.linkedin.com/school/cgc-jhanjeri">
+                <font face="georgia" color="#094163" size="4">
+                <span class="fa-brands fa-linkedin"></span>
+                LinkedIn
+            </font>
+            </a>
+            </td>
+            <td>
+            <a style="text-decoration: none" href="https://in.pinterest.com/cgcjhanjeri/">
+                <font face="georgia" color="#094163" size="4">
+                <span class="fa-brands fa-square-pinterest">
+                </span>
+                PINTEREST
+            </font>
+            </a>
+            </td>
+            <td>
+            <a href="#Home">
+                <font face="arial" color="#094163" size="8">
+                <span class="fa-solid fa-arrow-up">
+                </span>
+                </font>
+            </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+            </table>
+        </td>
+    </tr>
+            </table>
+    <!--End footer-->
+</body>
+</html>
